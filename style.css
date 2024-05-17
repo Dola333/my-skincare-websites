@@ -1,0 +1,105 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(25, 92, 69, 0.699);
+}
+
+nav {
+    min-height: 75px;
+    line-height: 75px;
+    background-color: rgba(40, 136, 102, 0.548);
+    margin-top: 10px;
+    width: 100%;
+
+}
+#logo {
+    font-size: 40px;
+    color:white;
+    font-style: italic;
+    text-shadow: 10px 5px 3px rgba(255, 255, 255, 0.13);
+    text-transform: uppercase;
+    cursor: pointer;
+    padding:10px;
+}
+
+ul {
+    float:right;
+    
+}
+nav li {
+    display: inline-block;
+    list-style: none;
+   
+    
+}
+
+nav li a {
+    color:white;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 22px;
+    width:20%;
+    display: inline-block;
+    cursor: pointer;
+
+}
+li a:hover {
+    color:yellowgreen;
+}
+
+button {
+    float:right;
+    width:10%;
+    margin-top:50px;
+    background-color: rgb(10, 31, 10);
+    color:azure;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 20px;
+    font-size: 19px;
+
+}
+.clearfix::after {
+    display: flex;
+    content: "";
+    clear:all;
+}
+
+.back-video {
+    position:absolute;
+    right:0;
+    bottom:0;
+    z-index: -1;
+ 
+  }
+ 
+ 
+ 
+ @media (min-aspect-ratio: 16/9){
+    .back-video{
+       width:100%;
+       height:auto;
+    }
+  }
+ 
+  @media (max-aspect-ratio: 16/9){
+    .back-video{
+       width:auto;
+       height:100%;
+    }
+  }
+ 
+
+  #lego {
+
+       text-align: center;
+       color: azure;
+       font-size: 50px;
+
+
+
+  }
