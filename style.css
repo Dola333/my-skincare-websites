@@ -65,6 +65,9 @@ li a:hover {
     display: flex;
 
 }
+.get-start:hover{
+    background-color: rgba(9, 9, 75, 0.521);
+}
 .clearfix::after {
     display: flex;
     content: "";
