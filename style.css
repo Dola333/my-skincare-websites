@@ -17,12 +17,12 @@ nav {
 
 }
 #logo {
-    font-size: 40px;
+  font-size: 40px;
     color:white;
     font-style: italic;
     text-shadow: 10px 5px 3px rgba(255, 255, 255, 0.13);
     text-transform: uppercase;
-    cursor: pointer;
+ 
     padding:10px;
 }
 
@@ -61,6 +61,7 @@ button {
     padding: 10px;
     margin: 20px;
     font-size: 19px;
+    cursor: pointer;
 
 }
 .clearfix::after {
@@ -94,12 +95,20 @@ button {
   }
  
 
-  #lego {
+  .lego {
 
        text-align: center;
        color: azure;
        font-size: 50px;
+       cursor: pointer;
+       
+
 
 
 
   }
+  .lego:hover{
+    text-decoration: underline;
+ 
+  }
+  
